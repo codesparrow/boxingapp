@@ -1,6 +1,6 @@
 == README
 
-This is a practice app. Learning Ruby on Rails.
+This is a practice app. Learning Ruby on Rails. I have a feeling this will be awesome
 
 Things you may want to cover:
 
