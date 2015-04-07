@@ -1,6 +1,6 @@
 <h1>Listing products</h1>
 
-<table>
+<table id="products">
   <thead>
     <tr>
       <th>Name</th>
@@ -18,7 +18,7 @@
         <td><%= product.image_url %></td>
         <td><%= link_to 'Show', product %></td>
         <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= button_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
