@@ -1,0 +1,15 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {  text-align: center; color: #cc0000; font-size: 3.5em; font-family: futura, lucida, georgia, palatino, sans-serif; padding-bottom: 20px;  }
+table {  margin: 0 auto; }
+th {  font-size: 2em; padding-bottom: 20px;  }
+td {  font-size: 1.5em; padding-right: 30px; }
+/* Border styles */
+#products thead, #products tr {  border-top-width: 1px; border-top-style: solid; border-color: #bda956;  }
+#products {  border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #bda956; }
+/* Padding and font style */
+#products td, #products th {  color: #333333;  }
+/* Alternating background colors */
+#products tr:nth-child(even) {  background: #bda956  }
+#products tr:nth-child(odd) {  background: #FFF;  }
