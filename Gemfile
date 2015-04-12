@@ -22,8 +22,8 @@ gem 'coffee-script-source', '1.8.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'execjs', '~> 2.5.0'
 # gem 'therubyracer',  platforms: :ruby
-# Paperclip gem for images
-gem 'paperclip', '~> 4.2.1'
+# Arel Gem 
+gem 'arel', '~> 5.0.1.20140414130214'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
