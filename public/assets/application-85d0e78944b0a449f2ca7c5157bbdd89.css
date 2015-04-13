@@ -1,8 +1,7 @@
 /* line 4, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
-h1 {
+.container-fluid, h1 {
   text-align: center;
   color: #cc0000;
-  font-size: 3.5em;
   font-family: futura, lucida, georgia, palatino, sans-serif;
   padding-bottom: 20px;
 }
@@ -55,19 +54,25 @@ td {
 #products tr:nth-child(odd) {
   background: #FFF;
 }
+
+/* line 16, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+#image {
+  max-width: 100px;
+  max-height: 100px;
+}
 /* line 1, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
 body {
   background-color: #fff;
   color: #333;
-  font-family: futura, lucida, georgia, palatino, sans-serif;
-  font-size: 1em;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
   line-height: 18px;
 }
 
 /* line 9, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
 p, ol, ul, td {
-  font-family: futura, lucida, georgia, palatino, sans-serif;
-  font-size: 2em;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
   line-height: 18px;
 }
 
@@ -88,7 +93,7 @@ a:visited {
 }
 /* line 26, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
 a:hover {
-  color: #cc0000;
+  color: #fff;
   background-color: #000;
 }
 
@@ -184,4 +189,3 @@ p {
 
 
  */
-
