@@ -1,14 +1,14 @@
 body {
   background-color: #fff;
   color: #333;
-  font-family: futura, lucida, georgia, palatino, sans-serif;
-  font-size: 1em;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
   line-height: 18px;
 }
 
 p, ol, ul, td {
-  font-family: futura, lucida, georgia, palatino, sans-serif;
-  font-size: 2em;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
   line-height: 18px;
 }
 
@@ -24,7 +24,7 @@ a {
     color: #666;
   }
   &:hover {
-    color: #cc0000;
+    color: #fff;
     background-color: #000;
   }
 }
@@ -67,6 +67,3 @@ div {
     list-style: square;
   }
 }
-
-
-
