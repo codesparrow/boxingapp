@@ -22,6 +22,7 @@ test:
 
 production:
   adapter: postgresql
-  database: HEROKU_POSTGRESQL_RED_URL
+  database: d8jbejh4n31vd7
+  host: ec2-50-16-190-77.compute-1.amazonaws.com
   pool: 5
   timeout: 5000
