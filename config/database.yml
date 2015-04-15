@@ -22,9 +22,6 @@ test:
 
 production:
   adapter: postgresql
-  encoding: utf8
-  database: d8jbejh4n31vd7
-  username: tjvvnbznfmsnbx
-  password: SyEb40l_dY_8T87C_Y6uAoP6Ar
-  host: ec2-50-16-190-77.compute-1.amazonaws.com 
-  sslmode: require
+  database: my_database_production
+  pool: 5
+  timeout: 5000
