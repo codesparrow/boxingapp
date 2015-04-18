@@ -1,9 +1,20 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.jumbotron h1, h3 {  text-align:center; color: #cc0000; font-family: futura, lucida, georgia, palatino, sans-serif; letter-spacing: 0.2em;  }
-.jumbotron h1 { font-size: 2em;  }
+.jumbotron h1, h3 {  text-align:center; color: #bda956; font-family: futura, lucida, georgia, palatino, sans-serif; letter-spacing: 0.2em;  }
+.jumbotron h1 { font-size: 3em;  }
 .jumbotron h2 { font-size: 1em;  }
 img {  display:block; margin: 0 auto;  }
 p {  text-align: center;  }
 .img-responsive {  display:block; max-width:100%; height: auto;  }
+.navbar-inverse ul li {  display: inline; text-transform: uppercase;
+letter-spacing: 0.5em; margin-left: 17px; margin-right: 17px;  }
+ul {  position: relative; font-size: 16px; z-index: 1; font-weight: 100;   
+float: right;  }
+.nav ul li a {  color: #cc0000;  }
+.nav ul {  float: right; padding-right: 200px;  }
+.nav a:hover {  color: #bda956; text-decoration: none;  }
+.nav a {  transition: color 600ms; -webkit-transition: 600ms;  }
+.top-title {  float: right; margin-left: 250px; padding-top: 15px;
+letter-spacing: 0.5em; display: inline;  }
+.top-title a {  text-transform: uppercase; color: white;  }
