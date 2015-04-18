@@ -1,0 +1,267 @@
+/* line 1, c:/Sites/boxingapp/app/assets/stylesheets/landing_page.css.scss */
+.container-fluid, h2 {
+  text-align: center;
+}
+
+/*Carousel*/
+/* line 3, c:/Sites/boxingapp/app/assets/stylesheets/landing_page.css.scss */
+.carousel-caption {
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #bda956;
+}
+
+/* line 5, c:/Sites/boxingapp/app/assets/stylesheets/landing_page.css.scss */
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/* line 4, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+.container, h1 {
+  text-align: center;
+  color: #cc0000;
+  font-family: futura, lucida, georgia, palatino, sans-serif;
+  padding-bottom: 20px;
+}
+
+/* line 5, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+table {
+  margin: 0 auto;
+}
+
+/* line 6, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+th {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* line 7, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+td {
+  font-size: 1.5em;
+  padding-right: 30px;
+}
+
+/* Border styles */
+/* line 9, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+#products thead, #products tr {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #bda956;
+}
+
+/* line 10, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+#products {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #bda956;
+}
+
+/* Padding and font style */
+/* line 12, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+#products td, #products th {
+  color: #333333;
+}
+
+/* Alternating background colors */
+/* line 14, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+#products tr:nth-child(even) {
+  background: #bda956;
+}
+
+/* line 15, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+#products tr:nth-child(odd) {
+  background: #FFF;
+}
+
+/* line 16, c:/Sites/boxingapp/app/assets/stylesheets/products.css.scss */
+#image {
+  max-width: 100px;
+  max-height: 100px;
+}
+/* line 1, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 23, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 26, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 33, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 42, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 65, c:/Sites/boxingapp/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 4, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.jumbotron h1, h3 {
+  text-align: center;
+  color: #bda956;
+  font-family: futura, lucida, georgia, palatino, sans-serif;
+  letter-spacing: 0.2em;
+}
+
+/* line 5, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.jumbotron h1 {
+  font-size: 3em;
+}
+
+/* line 6, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.jumbotron h2 {
+  font-size: 1em;
+}
+
+/* line 7, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 8, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+p {
+  text-align: center;
+}
+
+/* line 9, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 10, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.navbar-inverse ul li {
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+/* line 12, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+ul {
+  position: relative;
+  font-size: 16px;
+  z-index: 1;
+  font-weight: 100;
+  float: right;
+}
+
+/* line 14, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.nav ul li a {
+  color: #cc0000;
+}
+
+/* line 15, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.nav ul {
+  float: right;
+  padding-right: 200px;
+}
+
+/* line 16, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.nav a:hover {
+  color: #bda956;
+  text-decoration: none;
+}
+
+/* line 17, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.nav a {
+  transition: color 600ms;
+  -webkit-transition: 600ms;
+}
+
+/* line 18, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.top-title {
+  float: right;
+  margin-left: 250px;
+  padding-top: 15px;
+  letter-spacing: 0.5em;
+  display: inline;
+}
+
+/* line 20, c:/Sites/boxingapp/app/assets/stylesheets/static_pages.css.scss */
+.top-title a {
+  text-transform: uppercase;
+  color: white;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
