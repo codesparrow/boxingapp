@@ -15,7 +15,7 @@
 
    <tbody id="products">
     <% @products.each do |product| %>
-     <%= render partial: "product", collection: @products %>
+     <%=render partial: "product", locals:{product:product} %>
     <% end %>
    </tbody>
  </table>
