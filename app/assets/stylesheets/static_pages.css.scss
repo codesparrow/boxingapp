@@ -15,6 +15,4 @@ float: right;  }
 .nav ul {  float: right; padding-right: 200px;  }
 .nav a:hover {  color: #bda956; text-decoration: none;  }
 .nav a {  transition: color 600ms; -webkit-transition: 600ms;  }
-.top-title {  float: right; margin-left: 250px; padding-top: 15px;
-letter-spacing: 0.5em; display: inline;  }
-.top-title a {  text-transform: uppercase; color: white;  }
+#search-form {  float:right; text-transform: uppercase; letter-spacing: 0.3em; color: #bda956; padding-top: 10px; padding-left: 70px; font-family: futura, lucida, georgia, palatino, sans-serif;  }

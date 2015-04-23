@@ -24,9 +24,11 @@
    </button>
  <div class="navbar-collapse collapse">
   <ul class="nav navbar-nav">
-  <div class="top-title">
-   <a href="#home">The Sweet Science</a>
-  </div> <!--end of top-title-->
+   <%= form_tag("/products", method: "get", class: 'navbar-collapse', id: 'search-form') do %>
+    <%= label_tag(:q, "Search for:") %>
+    <%= text_field_tag(:q) %>
+    <%= submit_tag("Search") %>
+   <% end %>
    <li><%= link_to "home", root_path %></li>
    <li><%= link_to "about", static_pages_about_path %></li>
    <li><%= link_to "contact", static_pages_contact_path %></li>
