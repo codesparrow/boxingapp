@@ -9,4 +9,14 @@ class StaticPagesController < ApplicationController
    @featured_product = Product.first
    @products = Product.limit(3)
   end
+  def thank_you
+   @name = params[:name]
+   @email = params[:email]
+   @message = params[:message]
+   UserMailer.contact_form(@email, @name, @message).deliver
+   ActionMailer::Base.mail(:from => @email, 
+    :to => 'jpineiro26@gmail.com',
+    :subject => "A new contact message from #{@name}",
+    :body => @message).deliver
+  end
 end

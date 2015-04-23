@@ -16,3 +16,5 @@ float: right;  }
 .nav a:hover {  color: #bda956; text-decoration: none;  }
 .nav a {  transition: color 600ms; -webkit-transition: 600ms;  }
 #search-form {  float:right; text-transform: uppercase; letter-spacing: 0.3em; color: #bda956; padding-top: 10px; padding-left: 70px; font-family: futura, lucida, georgia, palatino, sans-serif;  }
+.form-group {  font-size: 1.5em; color: #cc0000; font-family: futura, lucida, georgia, palatino, sans-serif; font-weight: 100; width: 100%;  }
+.col-md-4, p { text-align: center; margin:0; color: #bda956; font-size: 1em; }
