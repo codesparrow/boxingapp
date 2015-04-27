@@ -4,7 +4,7 @@
 .jumbotron h1, h3 {  text-align:center; color: #bda956; font-family: futura, lucida, georgia, palatino, sans-serif; letter-spacing: 0.2em;  }
 .jumbotron h1 { font-size: 3em;  }
 .jumbotron h2 { font-size: 1em;  }
-img {  display:block; margin: 0 auto;  }
+img {  margin: 0 auto; }
 p {  text-align: center;  }
 .img-responsive {  display:block; max-width:100%; height: auto;  }
 .navbar-inverse ul li {  display: inline; text-transform: uppercase;
@@ -18,3 +18,7 @@ float: right;  }
 #search-form {  float:right; text-transform: uppercase; letter-spacing: 0.3em; color: #bda956; padding-top: 10px; padding-left: 70px; font-family: futura, lucida, georgia, palatino, sans-serif;  }
 .form-group {  font-size: 1.5em; color: #cc0000; font-family: futura, lucida, georgia, palatino, sans-serif; font-weight: 100; width: 100%;  }
 .col-md-4, p { text-align: center; margin:0; color: #bda956; font-size: 1em; }
+.rated, h4 { text-align: center;  }
+.rating { text-align: center;  }
+
+
