@@ -52,6 +52,9 @@ gem 'figaro', '~> 1.1.0'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'sqlite3', '~> 1.3.10'
+# extension inet
+gem 'postgres_ext', '~> 2.4.1'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
