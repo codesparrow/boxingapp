@@ -4,7 +4,7 @@ describe Product do
   
   context "name, description, image and colour are present" do
     
-    before { @product = Product.new(:name => "Henry Cooper Autographed Glove", :description => "Autographed Glove by Henry Cooper", :image_url => "/images/henrycooper.jpg", :colour => "black")}
+    before { @product = FactoryGirl.build(:product, :name => "Henry Cooper Autographed Glove", :description => "Autographed Glove by Henry Cooper", :image_url => "/images/henrycooper.jpg", :colour => "black")}
     
     it "should return name, description, image and colour" do  
       expect(@product.name).to eq "Henry Cooper Autographed Glove"
