@@ -12,7 +12,11 @@ end
 group :development, :test do 
   gem 'pg'
   gem 'rspec-rails', '~> 3.2.1'
+  gem 'guard-rspec', require: false
+  gem 'guard-spork'
 end
+# Automating testing
+gem 'spork-rails', '~> 4.0.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
