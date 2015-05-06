@@ -58,7 +58,7 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'sqlite3', '~> 1.3.10'
+# gem 'sqlite3', '~> 1.3.10'
 # extension inet
 gem 'postgres_ext', '~> 2.4.1'
 # Factory Girl
