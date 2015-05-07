@@ -59,7 +59,9 @@ gem 'rubyzip', '~> 1.1.7'
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
+# gem 'debugger', '~> 1.6.8'
 # gem 'debugger', group: [:development, :test]
+gem 'byebug', '~> 4.0.5'
 # gem 'sqlite3', '~> 1.3.10'
 # extension inet
 gem 'postgres_ext', '~> 2.4.1'
