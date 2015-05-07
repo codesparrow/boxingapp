@@ -52,6 +52,8 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 # Use unicorn as the app server
 # gem 'unicorn'
+#gem 'archive-zip', '~> 0.7.0'
+gem 'rubyzip', '~> 1.1.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
