@@ -54,6 +54,8 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # gem 'unicorn'
 #gem 'archive-zip', '~> 0.7.0'
 gem 'rubyzip', '~> 1.1.7'
+# Security gem
+gem 'brakeman', '~> 3.0.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
