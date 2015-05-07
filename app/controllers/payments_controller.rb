@@ -10,7 +10,8 @@ class PaymentsController < ApplicationController
         :source => token,
         :description => params[:stripeEmail]
     )
-    redirect_to orders_path, notice: "You order has been processed"
+    order = Order.create(product: product, stripe_id: charge.id, stripe_balance_transaction: charge.balance_transaction, total: charge.amount)
+    redirect_to order_url(order), notice: "You order has been processed"
     rescue Stripe::CardError => e
     # The card has been declined
       body = e.json_body

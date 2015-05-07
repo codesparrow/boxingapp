@@ -24,7 +24,7 @@
   <strong>Price:</strong>
   <%= @product.price %>
 </p>
-<%= form_tag "/payments/create" do %>
+<%= form_tag payments_create_path do %>
  <%= render partial: "shared/stripe_checkout_button", locals: {product: @product} %>
 <% end %>
 <p>Average rating: <div class="rated" data-score="<%= @product.average_rating %>"></div></p>
