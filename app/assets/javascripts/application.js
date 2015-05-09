@@ -23,3 +23,6 @@ $(document).on('ready page:load', function(){
       }
     });
 });
+$('input:text, input:password, textarea').wChar();
+
+$("input[type=password]").sauron();
