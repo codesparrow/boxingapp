@@ -1,3 +1,4 @@
+<%= hidden_field_tag :product_id, product.id %>
 <div class="stripe-controls" align="center">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -5,7 +6,8 @@
        data-image="<%= @product.image_url %>"
        data-name="<%= @product.name %>"
        data-description="<%= @product.description %>"
-       data-amount="<%= @product.price*100 %>">
+       data-amount="<%= @product.price_in_cents %>">
     </script>
   </div>
+
 
