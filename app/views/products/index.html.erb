@@ -12,12 +12,15 @@
       <th colspan="3"></th>
     </tr>
   </thead>
-
+  <% cache do %> 
    <tbody id="products">
     <% @products.each do |product| %>
-     <%=render partial: "product", locals:{product:product} %>
+      <% cache (product) do %>
+       <%=render partial: "product", locals:{product:product} %>
+      <% end %>
     <% end %>
    </tbody>
+  <% end %>
  </table>
 </div>
 

@@ -59,7 +59,8 @@ gem 'brakeman', '~> 3.0.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+# Memcachier
+gem 'dalli', '~> 2.7.4'
 # Use debugger
 # gem 'debugger', '~> 1.6.8'
 # gem 'debugger', group: [:development, :test]
