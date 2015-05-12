@@ -23,6 +23,12 @@ $(document).on('ready page:load', function(){
       }
     });
 });
-$('input:text, input:password, textarea').wChar();
 
-$("input[type=password]").sauron();
+//wChar
+$('input:text, input:password, textarea').wChar();
+//AJAX
+$(document).bind("ajaxSend", function(){
+   $("#loading").show();
+ }).bind("ajaxComplete", function(){
+   $("#loading").hide();
+ });

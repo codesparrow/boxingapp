@@ -1,5 +1,6 @@
-<%= hidden_field_tag :product_id, product.id %>
-<div class="stripe-controls" align="center">
+<%= form_tag('/products', remote: true) do %>
+ <%= hidden_field_tag :product_id, product.id %>
+ <div class="stripe-controls" align="center">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
        data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
@@ -9,5 +10,4 @@
        data-amount="<%= @product.price_in_cents %>">
     </script>
   </div>
-
-
+<% end %>
