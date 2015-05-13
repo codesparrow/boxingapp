@@ -34,10 +34,18 @@ class ProductsController < ApplicationController
     respond_to do |format|
       if @product.save
         format.html { redirect_to products_path, notice: 'Product was successfully created.' }
-        format.js 
-        format.json { render :show, status: :created, location: @product }
+        format.js do
+          render js: 
+           alert('Success!');
+           window.location = '#{products_path(@product)}';
+          endjs
+       format.json { render :show, status: :created, location: @product }
+     end 
       else
         format.html { render :new }
+        format.js do
+          render js: "alert('Failure!')";
+          endjs
         format.json { render json: @product.errors, status: :unprocessable_entity }
       end
     end
@@ -77,5 +85,6 @@ class ProductsController < ApplicationController
     def product_params
       params.require(:product).permit(:name, :description, :image_url, :colour, :price)
     end
+ end
 end
 

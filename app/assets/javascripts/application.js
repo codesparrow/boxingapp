@@ -26,9 +26,3 @@ $(document).on('ready page:load', function(){
 
 //wChar
 $('input:text, input:password, textarea').wChar();
-//AJAX
-$(document).bind("ajaxSend", function(){
-   $("#loading").show();
- }).bind("ajaxComplete", function(){
-   $("#loading").hide();
- });
