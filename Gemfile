@@ -61,6 +61,8 @@ gem 'brakeman', '~> 3.0.3'
 # gem 'capistrano-rails', group: :development
 # Memcachier
 gem 'dalli', '~> 2.7.4'
+#Redis
+gem 'redis-rails', '~> 4.0.0'
 # Use debugger
 # gem 'debugger', '~> 1.6.8'
 # gem 'debugger', group: [:development, :test]

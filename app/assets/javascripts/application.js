@@ -26,3 +26,14 @@ $(document).on('ready page:load', function(){
 
 //wChar
 $('input:text, input:password, textarea').wChar();
+
+
+$.ajax({
+  success: function(e,data, status, xhr){ alert('Success!')
+     // Handle the beforeSend event
+   },
+  error: function(e, xhr, status, error){ alert('Error!')
+     // Handle the complete event
+   }
+   // ......
+ });
