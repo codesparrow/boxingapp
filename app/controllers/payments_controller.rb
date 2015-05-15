@@ -8,7 +8,8 @@ class PaymentsController < ApplicationController
         :amount => product.price_in_cents, # amount in cents, again
         :currency => "usd",
         :source => token,
-        :description => product.name
+        :description => product.name,
+        :receipt_email => "example@gmail.com"
     )
     order = Order.create(product: product, stripe_id: charge.id, stripe_balance_transaction: charge.balance_transaction, total: charge.amount)
     redirect_to order_url(order), notice: "You order has been processed"
